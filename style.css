@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100;0,500;1,400;1,700;1,900&family=Rubik+Marker+Hatch&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Avenir Next";
+  background-image: url(Background-LandingPage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+li {
+  list-style: none; 
+}
+  
+.header {
+  color: white;
+  height: 150px;
+}
+  
+.header-logo {
+  float: left;
+  font-size: 50px;
+  margin-top: 3rem;
+  padding: 15px 90px;
+  font-family: 'Rubik Marker Hatch', cursive;
+}
+
+.header-logo span {
+  color: rgb(249, 33, 177);
+  font-family: 'Rubik Marker Hatch', cursive;
+}
+  
+.header-list li {
+  font-size: 30px;
+  margin-top: 3rem;
+  padding: 25px 90px;
+  float: right;
+}
+
+.contact {
+  margin-right: 90px;
+}
+
+.header-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-list a:hover {
+  color: rgb(249, 33, 177);
+  transition: 0.5s;
+}
+
+.header-list a:active {
+  color: rgb(249, 33, 177);
+}
+
+.myarticlesdropdown {
+  position: absolute;
+  display: none;
+}
+
+.main {
+  padding: 100px 90px;
+  margin-top: 5rem;
+}
+  
+.container h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: white;
+  margin-top: 3rem;
+}
+
+.container h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  margin-bottom: 4rem;
+}
+
+.container p {
+  font-size: 25px;
+  color: white;
+}
+  
+.container img {
+  float: right;
+  height: 47rem;
+  margin-right: 5rem;
+  margin-top: -6rem;
+}
+
+.container span {
+  color: rgb(249, 33, 177);
+}
+
+.saltacademy {
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(249, 33, 177);
+  text-decoration: none;
+}
+
+.getintouch {
+  display: flex;
+  justify-content: center;
+  margin-left: 35em;
+  margin-top: 3em;
+  background-color: rgb(249, 33, 177);
+  color: white;
+  border-radius: 1em;
+  border-width: 2px 2px;
+  border-style: groove;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  width: 8em;
+  padding: 10px 0px;
+}
+
+.getintouch:hover {
+  opacity: 0.8;
+}
+
+h3 {
+  border-bottom: 2px solid white;
+  font-size: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 5rem;
+  margin-top: 12em;
+  color: white;
+}
+
+.contents-item ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contents-item img {
+  width: 25rem;
+  height: 30rem;
+}
+
+.co01:hover {opacity: 0.5; transition: 1s;}
+.co02:hover {opacity: 0.5; transition: 1s;}
+.co03:hover {opacity: 0.5; transition: 1s;}
+.co04:hover {opacity: 0.5; transition: 1s;}
+.co05:hover {opacity: 0.5; transition: 1s;}
+
+.contents-item p {
+  font-size: 25px;
+  margin-top: 20px;
+  color: white;
+}
+  
+.contact {
+  color: white;
+  margin-top: 15rem;
+}
+
+h4 {
+  font-size: 50px;
+  padding-bottom: 15px;
+  margin-bottom: 5rem;
+  color: white;
+}
+
+.contact-form {margin-top: 2em;}
+.contact-form p {font-size: larger;}
+
+input, textarea {
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgb(249, 33, 177);
+  border: 1px solid white;
+  color: white;
+}
+  
+.contact-submit {background-color: #3d4042; color: #edf2f5;}
+.contact-submit:hover {transition: 1s; color:rgb(249, 33, 177); cursor: pointer;}
+
+h5 {
+  font-size: 40px;
+  margin-top: 5rem;
+}
+
+h6 {
+  font-size: 40px;
+  margin-top: -12.4em;
+  margin-bottom: 10em;
+  margin-left: 30em;
+}
+
+.socmedlist {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 100px;
+  margin-left: 13.3em;
+  margin-top: -3em;
+  position: absolute
+}
+
+.socmedlist a {color: white; justify-content: space-evenly;}
+.socmedlist a:hover {transition: 1s; color:rgb(249, 33, 177); cursor: pointer;}
+  
+.footer {
+  color: white;
+  display: flex;
+  justify-content: left;
+  position: absolute;
+  margin-left: 38.3cm;
+  margin-top: -5.2cm;
+}
+  
+.footer-logo {
+  font-size: 50px;
+  font-family: 'Rubik Marker Hatch', cursive;
+  border: 9px solid white;
+  margin-right: 10px;
+}
+
+.footer-logo span {
+  color: rgb(249, 33, 177);
+  font-family: 'Rubik Marker Hatch', cursive;
+  font-size: 50px;
+}
+
+.footer-list li a {text-decoration: none; color: white;}
+.footer-list li a:hover {color: darkorange; transition: 1s;}
+
+.corp {
+  color: orange;
+  text-decoration: none;
+}

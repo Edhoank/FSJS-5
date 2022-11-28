@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(https://img.freepik.com/premium-photo/binary-code-background-abstract-technology-digital-binary-data-secure-data-concept-3d-illustration_357568-2609.jpg?w=900); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  
+  .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919ee;
+    text-align: center;
+  }
+  
+  .box h1{
+    color: rgba(255, 255, 255, 0.886);
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .box input[type = "text"], .box input[type = "password"]
+  {
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 1s;
+  }
+  
+  .box input[type = "text"]:focus, .box input[type = "password"]:focus
+  {
+    width: 240px;
+    border-color: #2ecc71;
+  }
+  
+  .box input[type = "submit"]
+  {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #23b15f;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .box input[type = "submit"]:hover
+  {
+    background: #28a05ae5;
+  }
+  
+  h2{color: rgba(240, 248, 255, 0.858);}
+  
+  textarea{
+    color: aliceblue;
+    background: none;
+    text-align: justify;
+    border: 5px solid #e24418d3;
+    padding: 0px 40px;
+    border-radius: 20px;
+  }
