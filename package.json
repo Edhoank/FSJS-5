@@ -1,0 +1,18 @@
+{
+  "name": "dewr-jqslider-plugin",
+  "version": "1.0.0",
+  "description": "A simple jQSlider made by Me",
+  "main": "dewr-jqslider-plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edhoank/assignment03.git"
+  },
+  "keywords": [
+    "jQSlider",
+    "Slider",
+    "npm Plugin",
+    "Simple jQuery Slider"
+  ],
+  "author": "Edhoank <faithkhen@gmail.com>",
+  "license": "ISC"
+}
